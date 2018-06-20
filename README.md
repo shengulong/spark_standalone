@@ -2,7 +2,7 @@
 使用spark api写一个独立的应用程序：maven+scala
 
 # 参考
-Spark独立应用程序[0]
+[Spark独立应用程序][0]
 
 
 
