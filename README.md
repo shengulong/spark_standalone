@@ -24,7 +24,7 @@
     	val numBs = logData.filter(line => line.contains("b")).count()
     	println("Lines with a: %s, Lines with b: %s".format(numAs, numBs))
  	   }
-   }
+    }
 
 这个程序仅仅是在 Spark README 中计算行里面包含 'a' 和包含 'b' 的次数。你需要注意将 YOUR_SPARK_HOME 替换成你已经安装 Spark 的路径。不像之前的 Spark Shell 例子，这里初始化了自己的 SparkContext，我们把 SparkContext 初始化作为程序的一部分。
 我们通过 SparkContext 的构造函数参入 SparkConf 对象，这个对象包含了一些关于我们程序的信息。
